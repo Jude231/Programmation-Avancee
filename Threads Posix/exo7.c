@@ -49,7 +49,8 @@ void* thread_fonction(void* arg)
     return NULL;
 }
 
-int main() {
+int main() 
+{
     srand(time(NULL));
     pthread_t t1, t2;
     int id1 = 1, id2 = 2;
