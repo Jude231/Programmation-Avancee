@@ -45,7 +45,8 @@ void* affichage(void* arg)
     return NULL;
 }
 
-int main() {
+int main() 
+{
     srand(time(NULL));
     pthread_t t1, t2;
 
